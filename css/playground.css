@@ -15,3 +15,8 @@ footer {
   font-size: 80%;
   color: silver;
 }
+
+.langInfo {
+  font-style: italic;
+  color: gray;
+}
