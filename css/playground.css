@@ -12,3 +12,8 @@ footer {
   font-size: 80%;
   color: silver;
 }
+
+.langInfo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
