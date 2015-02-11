@@ -1,0 +1,14 @@
+body {
+  font-family: Georgia, "Times News Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+footer {
+  margin: 3em 0 1em;
+  border-top: 1px solid silver;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  color: silver;
+}
