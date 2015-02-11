@@ -2,10 +2,10 @@
   document.addEventListener('DOMContentLoaded', initPlayground);
 
   function initPlayground() {
-    var is = document.querySelector('*[hreflang]');
-    is.forEach(function(i) {
-      var html = ' <span class="langInfo">(' + i.getAttribute('hreflang') + ')</span>';
-      i.insertAdjacentHTML('beforeend', html);
+    var items = document.querySelector('*[hreflang]');
+    items.forEach(function(item) {
+      var html = ' <span class="langInfo">(' + item.getAttribute('hreflang') + ')</span>';
+      item.insertAdjacentHTML('beforeend', html);
     });
   }
 })();
